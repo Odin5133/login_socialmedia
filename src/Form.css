@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
+
+.formx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.formx-wel {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.formx-upper {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem, 0rem;
+  padding-bottom: 1rem;
+}
+
+.formx-upper-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  height: 5vh;
+  width: 50vh;
+  margin: 0.5rem;
+  border: none;
+  background-color: #286efa;
+  color: white;
+  font-size: 100%;
+  border-radius: 10px;
+}
+
+.formx-upper-icon {
+  display: flex;
+  background-color: white;
+  width: 4vh;
+  height: auto;
+  border: 1px solid #286efa;
+  border-radius: 10px 0px 0px 10px;
+  padding: 0;
+  margin: -2.5px;
+}
+
+.formx-upper-name {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #286efa;
+  font-weight: bold;
+}
+
+.formx-mid {
+  width: 50vh;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.formx-mid-txt {
+  background: #fff;
+  padding: 0 10px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.formx-bottom {
+  width: 50vh;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.formx-bottom-btn {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 5vh;
+  width: 45vh;
+  margin: 1rem 0rem;
+  padding: 0rem 1rem;
+}
+
+.formx-bottom-nece {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  width: 50vh;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.formx-bottom-nece-fmp {
+  justify-content: flex-end;
+  text-decoration: underline;
+  font-size: small;
+  color: #616161;
+}
+
+.formx-bottom-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 6vh;
+  width: 50vh;
+  border-radius: 10px;
+  /* background-color: rgb(127, 127, 127); */
+  background-color: #000;
+  color: #fff;
+  font-size: large;
+}
